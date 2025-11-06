@@ -1,15 +1,15 @@
 # Clustering d’e-mails de phishing
 
-## 🎀 Description
+## Description
 Ce projet a pour objectif d’analyser un jeu de données d’e-mails réels (Safe / Phishing) à l’aide de **méthodes non supervisées** de *clustering sémantique*.  
 L’étude repose sur des **embeddings textuels (all-MiniLM-L6-v2)** et sur des techniques de **réduction de dimension** (*t-SNE*, *UMAP*), avant l’application de plusieurs algorithmes de regroupement (**KMeans**, **DBSCAN**, **HDBSCAN**).  
 Une étape complémentaire combine **HDBSCAN** avec un **modèle de langage (LLM Mistral-7B)** pour catégoriser automatiquement les types de phishing détectés.
 
-## 🎀 Ressources
+## Ressources
 - **Dataset Kaggle** : [Phishing Emails Dataset](https://www.kaggle.com/datasets/subhajournal/phishingemails)  
 - **Rapport complet (PDF)** : [Télécharger ici](https://filesender.renater.fr/?s=download&token=e6882859-2f9d-45af-bb88-5dcfb54eafac)
 
-## 🎀 Contributions
+## Contributions
 
 Le projet a été réalisé en collaboration par quatre étudiantes du Master Informatique à l’Université Claude Bernard Lyon 1.
 
